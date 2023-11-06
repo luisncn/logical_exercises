@@ -7,7 +7,6 @@ is greater than 60 prints a message, otherwise a different message
 name_age = {}
 
 for x in range(0, 3):
-    global name, age
     name = input("Introduce tu nombre: ")
     age = int(input("Introduce tu edad: "))
     for y in (0, 3):
